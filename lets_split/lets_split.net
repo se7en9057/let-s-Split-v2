@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\ASUS\\Google Drive\\let-s-Split-v2\\lets_split\\lets_split.sch")
-    (date "5/30/2018 9:50:22 PM")
+    (source "C:/Users/ASUS/Google Drive/let-s-Split-v2/lets_split/lets_split.sch")
+    (date "5/30/2018 10:03:39 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -431,7 +431,7 @@
       (tstamp 5B0F7B30))
     (comp (ref SW25)
       (value SW_PUSH)
-      (footprint Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP-2U)
+      (footprint Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP)
       (libsource (lib lets_split-cache) (part SW_PUSH))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B0F8518)))
