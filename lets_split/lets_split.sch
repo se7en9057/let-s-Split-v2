@@ -632,17 +632,6 @@ F 3 "" H 2000 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 6PIN J2
-U 1 1 57D49FBD
-P 6650 1650
-F 0 "J2" H 6600 2000 60  0000 C CNN
-F 1 "6PIN" H 6600 1300 60  0000 C CNN
-F 2 "footprint:4pin35mmAudio" H 6650 1650 60  0001 C CNN
-F 3 "" H 6650 1650 60  0000 C CNN
-	1    6650 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L 3PIN J1
 U 1 1 57D4A05A
 P 5750 1700
@@ -737,19 +726,9 @@ F 3 "" H 6300 950 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	6450 950  6500 1450
-Wire Wire Line
-	6450 950  6900 950 
-Wire Wire Line
-	6900 950  6900 1450
-Connection ~ 6900 950 
 Connection ~ 6450 950 
 Wire Wire Line
-	6800 1450 6800 1350
-Wire Wire Line
-	6800 1350 6600 1350
-Wire Wire Line
 	6600 1350 6600 1450
-Connection ~ 6800 1350
 Connection ~ 6600 1350
 Text GLabel 6600 1350 1    60   Input ~ 0
 xtradata
@@ -1049,7 +1028,7 @@ U 1 1 5B0F8518
 P 9150 3600
 F 0 "SW25" H 9300 3710 50  0000 C CNN
 F 1 "SW_PUSH" H 9150 3520 50  0000 C CNN
-F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP-2U" H 9150 3600 50  0001 C CNN
+F 2 "Universal-Switch-Footprint:MX-ALPs-PG1350-FLIP" H 9150 3600 50  0001 C CNN
 F 3 "" H 9150 3600 50  0000 C CNN
 	1    9150 3600
 	1    0    0    -1  
@@ -1057,4 +1036,15 @@ $EndComp
 Connection ~ 8850 3600
 Wire Wire Line
 	9450 3600 9450 3700
+$Comp
+L Conn_01x04 TRRS1
+U 1 1 5B1217E6
+P 6500 1650
+F 0 "TRRS1" H 6500 1850 50  0000 C CNN
+F 1 "4pin 3.5mm" H 6500 1350 50  0000 C CNN
+F 2 "BishopKicadConsolidated:PJ320E_3.5mm_Jack_flip" H 6500 1650 50  0001 C CNN
+F 3 "" H 6500 1650 50  0001 C CNN
+	1    6500 1650
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC
